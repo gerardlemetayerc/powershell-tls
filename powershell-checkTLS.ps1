@@ -115,7 +115,3 @@ function Set-TLSSChannel
         }
     }
 }
-
-Set-TLSSChannel -scope Server -version 1.1 -enabled $false -DisabledByDefault $true
-Set-TLSSChannel -scope Server -version 1.0 -enabled $false -DisabledByDefault $true
-Set-TLSSChannel -scope Server -version 1.2 -enabled $true -DisabledByDefault $false
