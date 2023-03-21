@@ -1,5 +1,5 @@
 ## Getting current param values
-Show-TLSRegValues
+`Show-TLSRegValues
 
 ## Define SChannel to disable TLS 1.0, 1.1 but not 1.2
 - Set-TLSSChannel -scope Server -version 1.1 -enabled $false -DisabledByDefault $true
